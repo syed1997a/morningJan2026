@@ -300,7 +300,7 @@ public class AppIndependentMethods {
         String sYear = null;
         try{
             objData = new HashMap<String, String>();
-            fin = new FileInputStream(System.getProperty("user.dir")+"\\out\\TestData\\"+ fileName);
+            fin = new FileInputStream(System.getProperty("user.dir")+"\\FrameworkDraft\\out\\TestData\\"+ fileName);
             wb = new XSSFWorkbook(fin);
             sh = wb.getSheet(sheetName);
             if(sh==null){
@@ -411,7 +411,7 @@ public class AppIndependentMethods {
         String sYear = null;
         boolean isColumnExist = false;
         try{
-            fin = new FileInputStream(System.getProperty("user.dir")+"\\out\\reflection\\"+fileName);
+            fin = new FileInputStream(System.getProperty("user.dir")+"\\FrameworkDraft\\out\\reflection\\"+fileName);
             wb = new XSSFWorkbook(fin);
             sh = wb.getSheet(sheetName);
             if(sh==null){
